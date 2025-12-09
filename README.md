@@ -5,6 +5,10 @@ last update  2025/12/09
 ## 概要
 FileDiverは、Microsoft Foundation Class (MFC)を使用して開発されたWindowsアプリケーションプロジェクトです。このリポジトリには、アプリケーションのソースコード、リソース、および関連する設定ファイルが含まれています。
 
+## プログラム配布
+動作プログラムは、下記URLのVectorサイトで配布しています。
+* https://www.vector.co.jp/soft/screen/winnt/util/se482619.html
+
 ## 特徴・機能
 最高速・高機能ファイル検索ソフト（Ｇｒｅｐ）です。
 1. 超高速検索
