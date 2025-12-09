@@ -47,8 +47,9 @@ ActiveX版のxdoc2txt（xdoc2txt.ocx）を使っています。http://www31.ocn.
 
 
 ## スクリーンショット
-![メイン画面]()
+![メイン画面](https://bit.ly/3MrQcQe)
 
+![検索条件設定](https://bit.ly/4pqKKf0)
 
 ## 特徴
 - **プラットフォーム**: Windows (Win32)
