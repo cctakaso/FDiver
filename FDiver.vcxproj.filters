@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4ef38274-f298-407f-a490-acb7dd73d85f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0ac28fd8-e8ca-4c6d-897a-f67d1ef057bd}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7689a543-d75d-4457-8375-7417239ac7da}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDxdoc2txt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDxdoc2txtEvents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Colorlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crejit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dbmpstr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dfilearc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dirlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Edstratr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Edstrli2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Edstrlis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fdivedoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FDiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FDiverDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fdivevw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ffile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Filespec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filetrad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filetran.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Finddlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Findlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Findlog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Findopti.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Grep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Greppat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeaderCtrlEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Listent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mdglibs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Metachad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Metachar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Metainp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Metainp1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Metainp2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Metastr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Optdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Optdlg1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Optdlg2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setpdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setpdlg2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strary2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strindlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strspd1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strspd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strspec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strspecd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tagfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FDiver.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDxdoc2txt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDxdoc2txtEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Colorlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Crejit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dbmpstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dfilearc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dirlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Edstratr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Edstrli2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Edstrlis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fdivedoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FDiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FDiverDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fdivevw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ffile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Filespec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filetrad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filetran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="finddlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Findlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="findlog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Findopti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Grep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Greppat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderCtrlEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lstent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mainfrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mdglibs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Metachad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Metachar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Metainp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Metainp1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Metainp2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Metastr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Optdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Optdlg1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Optdlg2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="setpdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="setpdlg2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strary2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strindlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strspd1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strspd2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strspec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strspecd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tagfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unarj32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unlha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unlha32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unzip32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Win16_32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BITMAP1.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FDiver.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fdiver_welcom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FDiverDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\file1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FINDING.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FINDING2.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\LSTENT1.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\path1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tree.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tree1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\CURSOR2.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\DRP_NG.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FDiver.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

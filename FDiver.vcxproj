@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{087D9880-C5F4-48A0-B366-52987025D06F}</ProjectGuid>
+    <RootNamespace>FDiver</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC70.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/FDiver.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_TAG;SHARWARE;_DBCS;_JPN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/FDiver.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>Z:\windows products\Projects\MDFC\debug\mdfc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/FDiver.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/FDiver.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary />
+      <AdditionalLibraryDirectories>Z:\windows products\Projects\MDFC\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/FDiver.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_TAG;SHARWARE;_DBCS;_JPN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/FDiver.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>"C:\Users\user\local\win_prjs\MDFC\Release\Mdfc.lib";%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/FDiver.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>"C:\Users\user\local\win_prjs\MDFC\Release\Mdfc.lib";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\Release/FDiver.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CDxdoc2txt.cpp" />
+    <ClCompile Include="CDxdoc2txtEvents.cpp" />
+    <ClCompile Include="ColorDlg.cpp" />
+    <ClCompile Include="Colorlist.cpp" />
+    <ClCompile Include="Crejit.cpp" />
+    <ClCompile Include="Dbmpstr.cpp" />
+    <ClCompile Include="dfilearc.cpp" />
+    <ClCompile Include="Dirlist.cpp" />
+    <ClCompile Include="Edstratr.cpp" />
+    <ClCompile Include="Edstrli2.cpp" />
+    <ClCompile Include="Edstrlis.cpp" />
+    <ClCompile Include="Extensio.cpp" />
+    <ClCompile Include="Fdivedoc.cpp" />
+    <ClCompile Include="FDiver.cpp" />
+    <ClCompile Include="FDiverDoc.cpp" />
+    <ClCompile Include="Fdivevw.cpp" />
+    <ClCompile Include="Ffile.cpp" />
+    <ClCompile Include="Filespec.cpp" />
+    <ClCompile Include="filetrad.cpp" />
+    <ClCompile Include="filetran.cpp" />
+    <ClCompile Include="Finddlg.cpp" />
+    <ClCompile Include="Findlist.cpp" />
+    <ClCompile Include="Findlog.cpp" />
+    <ClCompile Include="Findopti.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Grep.cpp" />
+    <ClCompile Include="Greppat.cpp" />
+    <ClCompile Include="HeaderCtrlEx.cpp" />
+    <ClCompile Include="Listent.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Mdglibs.cpp" />
+    <ClCompile Include="Metachad.cpp" />
+    <ClCompile Include="Metachar.cpp" />
+    <ClCompile Include="Metainp.cpp" />
+    <ClCompile Include="Metainp1.cpp" />
+    <ClCompile Include="Metainp2.cpp" />
+    <ClCompile Include="Metastr.cpp" />
+    <ClCompile Include="Optdlg.cpp" />
+    <ClCompile Include="Optdlg1.cpp" />
+    <ClCompile Include="Optdlg2.cpp" />
+    <ClCompile Include="Profile.cpp" />
+    <ClCompile Include="setpdlg.cpp" />
+    <ClCompile Include="setpdlg2.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Strary2.cpp" />
+    <ClCompile Include="Strindlg.cpp" />
+    <ClCompile Include="Strspd1.cpp" />
+    <ClCompile Include="Strspd2.cpp" />
+    <ClCompile Include="Strspec.cpp" />
+    <ClCompile Include="Strspecd.cpp" />
+    <ClCompile Include="Tagfile.cpp" />
+    <ClCompile Include="UserPath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FDiver.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CDxdoc2txt.h" />
+    <ClInclude Include="CDxdoc2txtEvents.h" />
+    <ClInclude Include="ColorDlg.h" />
+    <ClInclude Include="Colorlist.h" />
+    <ClInclude Include="Crejit.h" />
+    <ClInclude Include="Dbmpstr.h" />
+    <ClInclude Include="dfilearc.h" />
+    <ClInclude Include="Dirlist.h" />
+    <ClInclude Include="Edstratr.h" />
+    <ClInclude Include="Edstrli2.h" />
+    <ClInclude Include="Edstrlis.h" />
+    <ClInclude Include="Extensio.h" />
+    <ClInclude Include="Fdivedoc.h" />
+    <ClInclude Include="FDiver.h" />
+    <ClInclude Include="FDiverDoc.h" />
+    <ClInclude Include="fdivevw.h" />
+    <ClInclude Include="Ffile.h" />
+    <ClInclude Include="Filespec.h" />
+    <ClInclude Include="filetrad.h" />
+    <ClInclude Include="filetran.h" />
+    <ClInclude Include="finddlg.h" />
+    <ClInclude Include="Findlist.h" />
+    <ClInclude Include="findlog.h" />
+    <ClInclude Include="Findopti.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="Grep.h" />
+    <ClInclude Include="Greppat.h" />
+    <ClInclude Include="HeaderCtrlEx.h" />
+    <ClInclude Include="Lstent.h" />
+    <ClInclude Include="Mainfrm.h" />
+    <ClInclude Include="Mdglibs.h" />
+    <ClInclude Include="Metachad.h" />
+    <ClInclude Include="Metachar.h" />
+    <ClInclude Include="Metainp.h" />
+    <ClInclude Include="Metainp1.h" />
+    <ClInclude Include="Metainp2.h" />
+    <ClInclude Include="Metastr.h" />
+    <ClInclude Include="Optdlg.h" />
+    <ClInclude Include="Optdlg1.h" />
+    <ClInclude Include="Optdlg2.h" />
+    <ClInclude Include="Profile.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="setpdlg.h" />
+    <ClInclude Include="setpdlg2.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Strary2.h" />
+    <ClInclude Include="Strindlg.h" />
+    <ClInclude Include="Strspd1.h" />
+    <ClInclude Include="Strspd2.h" />
+    <ClInclude Include="Strspec.h" />
+    <ClInclude Include="Strspecd.h" />
+    <ClInclude Include="Tagfile.h" />
+    <ClInclude Include="Unarj32.h" />
+    <ClInclude Include="Unlha.h" />
+    <ClInclude Include="Unlha32.h" />
+    <ClInclude Include="Unzip32.h" />
+    <ClInclude Include="UserPath.h" />
+    <ClInclude Include="Version.h" />
+    <ClInclude Include="Win16_32.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BITMAP1.BMP" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\FDiver.ico" />
+    <Image Include="res\fdiver_welcom.bmp" />
+    <Image Include="res\FDiverDoc.ico" />
+    <Image Include="res\file1.bmp" />
+    <Image Include="RES\FINDING.ICO" />
+    <Image Include="RES\FINDING2.ICO" />
+    <Image Include="RES\LSTENT1.BMP" />
+    <Image Include="res\path1.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\tree.bmp" />
+    <Image Include="res\tree1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor1.cur" />
+    <None Include="RES\CURSOR2.CUR" />
+    <None Include="RES\DRP_NG.CUR" />
+    <None Include="res\FDiver.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MDFC\Mdfc.vcxproj">
+      <Project>{087c526f-d79a-40fa-9041-c0aee28a1c58}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Unkanj\UnKanj.vcxproj">
+      <Project>{44909dc2-be08-4c30-8d7f-c7c697020446}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties _x007B_4FD6BD6E-471A-48A6-8C52-5E8391ECBA9F_x007D_="CDxdoc2txt" RESOURCE_FILE="FDiver.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
