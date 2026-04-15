@@ -51,9 +51,9 @@ ActiveX版のxdoc2txt（xdoc2txt.ocx）を使っています。http://www31.ocn.
 
 
 ## スクリーンショット
-![メイン画面](https://bit.ly/3MrQcQe)
+![メイン画面](<img width="720" height="540" alt="482619_00" src="https://github.com/user-attachments/assets/ae5d0b6f-b63d-481d-8eb3-ddd2565f3f33" />)
 
-![検索条件設定](https://bit.ly/4pqKKf0)
+![検索条件設定](<img width="539" height="392" alt="482619_01" src="https://github.com/user-attachments/assets/d58c101f-d8ee-4922-88f6-680e45660cb8" />)
 
 ## 特徴
 - **プラットフォーム**: Windows (Win32)
