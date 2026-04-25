@@ -67,8 +67,8 @@ ActiveX版のxdoc2txt（xdoc2txt.ocx）を使っています。http://www31.ocn.
 - **開発ツール**: Visual Studio 2026最新（2019以降OK）
 - **プラットフォームツールセット**: v145
 - **依存プロジェクト**:
-  - [MDFC](../MDFC/Mdfc.vcxproj)
-  - [UnKanj](../Unkanj/UnKanj.vcxproj)
+  - [MDFC](../MDFC)
+  - [UnKanj](../Unkanj)
 
 ## ビルド手順
 1. Visual Studioで`FileDiver.sln`を開きます。
